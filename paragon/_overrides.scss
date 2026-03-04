@@ -6,8 +6,12 @@ body, .text-monospace, * {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
 }
+.xmodule_display.xmodule_AboutBlock pre,
+.xmodule_display.xmodule_CourseInfoBlock pre,
+.xmodule_display.xmodule_HtmlBlock pre,
+.xmodule_display.xmodule_StaticTabBlock pre,
 pre {
-    font-family: 'Roboto Mono', monospace, 'Inter', serif !important;
+    font-family: 'Roboto Mono',monospace, serif !important;
 }
 html {
     width: 100%;
