@@ -6,6 +6,9 @@ body, .text-monospace, * {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
 }
+pre {
+    font-family: 'Roboto Mono', monospace, 'Inter', serif !important;
+}
 html {
     width: 100%;
     overflow-x: hidden;
